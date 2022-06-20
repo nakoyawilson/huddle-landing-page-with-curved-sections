@@ -35,6 +35,11 @@ a {
   text-decoration: none;
 }
 
+img,
+svg {
+  display: block;
+}
+
 /* Header */
 .header {
   width: 87.2%;
@@ -304,6 +309,7 @@ a {
   font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
+  text-transform: uppercase;
 }
 
 .newsletter-form {
@@ -484,7 +490,7 @@ a {
   }
 
   .stats {
-    margin: 96rem auto 0;
+    margin: 100rem auto 0;
     flex-direction: row;
     justify-content: space-between;
     width: min(100%, 880px);
@@ -516,8 +522,8 @@ a {
   }
 
   .section {
-    /* padding: 4rem 0;
-    margin-top: 15rem; */
+    padding: 0;
+    margin-top: 15rem;
     text-align: left;
   }
 
@@ -529,8 +535,16 @@ a {
     align-items: center;
   }
 
+  .grow-section {
+    margin-top: 29.5rem;
+    /* padding-bottom: 1rem; */
+  }
+
+  .conversations-section {
+    margin-top: 25rem;
+  }
+
   .grow-section .flex-container {
-    /* margin-top: 11.2rem; */
     flex-direction: row-reverse;
   }
 
@@ -596,9 +610,9 @@ a {
 
   /* Call to Action */
 
-  /* .cta {
-    margin-top: 14.1rem;
-  } */
+  .cta {
+    margin-top: 22rem;
+  }
 
   .cta-heading {
     font-size: 4rem;
@@ -611,10 +625,10 @@ a {
 
   /* Footer */
 
-  /* .footer {
-    padding: 5.6rem 2.8rem 1.6rem;
-    margin-top: 30.4rem;
-  } */
+  .footer {
+    padding: 12.5rem 2.8rem 1rem;
+    margin-top: 33.2rem;
+  }
 
   .footer::before {
     height: 158px;
@@ -666,16 +680,18 @@ a {
   }
 
   .contact-details {
+    margin: 2.4rem 0 0 3.2rem;
     font-size: 1.6rem;
   }
 
   .social-icons {
     gap: 2.4rem;
-    margin-top: 8rem;
+    margin-top: 7.6rem;
   }
 
   .social-icon {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
     transition: all 0.5s ease-in-out;
   }
 
@@ -684,7 +700,7 @@ a {
   }
 
   .attribution {
-    margin-top: 10.3rem;
+    margin-top: 8.2rem;
   }
 
   .attribution a {
