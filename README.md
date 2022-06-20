@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-huddle-landing-page-with-curved-sections-gLo8BcNgzv](https://www.frontendmentor.io/solutions/mobile-first-huddle-landing-page-with-curved-sections-gLo8BcNgzv)
 - Live Site URL: [https://nakoyawilson.github.io/huddle-landing-page-with-curved-sections/](https://nakoyawilson.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
